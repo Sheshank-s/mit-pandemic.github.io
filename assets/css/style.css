@@ -431,13 +431,20 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     height: auto;
     padding: 100px 0 60px 0;
-    height: 80vh;
+    height: 60vh;
   }
   #hero .container {
     height: auto !important;
   }
   #hero .intro-img {
     width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  #hero {
+
+    height: 80vh;
   }
 }
 
@@ -468,7 +475,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 767px) {
   #hero .intro-info h2 {
-    font-size: 34px;
+    font-size: 28px;
     margin-bottom: 30px;
   }
 }
@@ -519,11 +526,6 @@ section {
   width: 50%;
 }
 
-@media (max-width: 767px) {
-  .section-header p {
-    width: 100%;
-  }
-}
 
 /* Section with background
 --------------------------------*/
@@ -608,7 +610,20 @@ section {
   background-color: #ebf1fa;
   transition: .5s;
 }
+.mit-logo {
+  height: 100px;
+}
 
+@media (max-width: 767px) {
+  .section-header p {
+    width: 100%;
+  }
+
+  .mit-logo {
+    height: 70px;
+  }
+
+}
 /* Services Section
 --------------------------------*/
 #services {
@@ -618,17 +633,19 @@ section {
 #services .box {
   padding: 30px;
   position: relative;
-  overflow: hidden;
+  overflow-y: auto;
   border-radius: 10px;
   margin: 0 10px 40px 10px;
   background: #fff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
   text-align: center;
+  height: 330px;
 }
 
 #services .box:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 #services .icon {
@@ -664,7 +681,7 @@ section {
   font-size: 14px;
   line-height: 28px;
   margin-bottom: 0;
-  text-align: left;
+  text-align: center;
 }
 
 /* Why Us Section

@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #1bb1dc;
+  color: #A31F34;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #0a98c0;
+  color: #a31f34;
   outline: none;
   text-decoration: none;
 }
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #1bb1dc;
+  background: #a31f34;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a {
-  color: #413e66;
+  color:  #000000;
   padding-left: 20px;
   display: inline-block;
   line-height: 1px;
@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #1bb1dc;
+  color: #a31f34;
 }
 
 #topbar .social-links a:first-child {
@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #413e66;
+  color:  #000000;
   vertical-align: -webkit-baseline-middle;
 }
 
@@ -228,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #413e66;
+  color:  #000000;
   padding: 10px 0;
   transition: 0.3s;
   font-size: 14px;
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-nav a:hover, .main-nav .active > a, .main-nav li:hover > a {
-  color: #1bb1dc;
+  color: #A31F34;
   text-decoration: none;
 }
 
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-nav .drop-down ul a:hover, .main-nav .drop-down ul .active > a, .main-nav .drop-down ul li:hover > a {
-  color: #1bb1dc;
+  color: #A31F34;
 }
 
 .main-nav .drop-down > a:after {
@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #8dc2fa;
+  color: #A31F34;
   text-decoration: none;
 }
 
@@ -462,7 +462,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .intro-info h2 {
-  color: #413e66;
+  color:  #000000;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
@@ -510,7 +510,7 @@ section {
 --------------------------------*/
 .section-header h3 {
   font-size: 36px;
-  color: #413e66;
+  color:  #000000;
   text-align: center;
   font-weight: 700;
   position: relative;
@@ -544,13 +544,13 @@ section {
 }
 
 #about .about-content h2 {
-  color: #413e66;
+  color:  #000000;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
 #about .about-content h3 {
-  color: #696592;
+  color: #000000;
   font-weight: 400;
   font-size: 22px;
   font-style: italic;
@@ -674,7 +674,7 @@ section {
 }
 
 #services .box:hover .title a {
-  color: #1bb1dc;
+  color: #A31F34;
 }
 
 #services .description {
@@ -710,7 +710,7 @@ section {
   font-size: 24px;
   font-weight: 600;
   margin-left: 56px;
-  color: #413e66;
+  color:  #000000;
   margin-bottom: 5px;
 }
 
@@ -743,7 +743,7 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #671c23;
+  background: #250104;
   background-size: cover;
   padding: 40px 0;
 }
@@ -781,8 +781,8 @@ section {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #1bb1dc;
-  border: 3px solid #1bb1dc;
+  background: #A31F34;
+  border: 3px solid #A31F34;
 }
 
 /* Features Section
@@ -816,7 +816,7 @@ section {
   padding: 6px 10px;
   font-size: 16px;
   line-height: 20px;
-  color: #413e66;
+  color:  #000000;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -874,7 +874,7 @@ section {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-  color: #1bb1dc;
+  color: #a31f34;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
@@ -996,7 +996,7 @@ section {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #1bb1dc;
+  background-color: #A31F34;
 }
 
 /* Team Section
@@ -1063,7 +1063,7 @@ section {
 }
 
 #team .member .social a:hover {
-  color: #1bb1dc;
+  color: #a31f34;
 }
 
 #team .member .social i {
@@ -1173,7 +1173,7 @@ section {
 #pricing .card .list-group-item {
   border: 0px;
   padding: 6px;
-  color: #413e66;
+  color:  #000000;
   font-weight: 300;
 }
 
@@ -1431,7 +1431,7 @@ section {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
-  color: #413e66;
+  color:  #000000;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1461,7 +1461,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0a98c0;
+  background:#a31f34;
   color: #fff;
 }
 
@@ -1474,7 +1474,7 @@ section {
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #413e66;
+  color:  #000000;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 10px;
@@ -1503,7 +1503,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #1bb1dc;
+  color:#a31f34;
 }
 
 #footer .footer-top .footer-contact {
@@ -1537,7 +1537,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #0a98c0;
+  background:#A31F34;
 }
 
 #footer .php-email-form .validate {
@@ -1656,9 +1656,9 @@ section {
 }
 
 #footer .credits a {
-  color: #1bb1dc;
+  color: #a31f34;
 }
 
 #footer .credits a:hover {
-  color: #0a98c0;
+  color: #a31f34;
 }

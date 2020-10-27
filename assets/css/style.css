@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #A31F34;
+  color: #e59ba8;
   transition: 0.5s;
 }
 
@@ -419,7 +419,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 .layer {
-    background-color: rgb(255 204 203 / 66%);
+    background-color: rgb(255 204 203 / 76%);
     position: absolute;
     top: 0;
     left: 0;
@@ -743,7 +743,7 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #250104;
+  background: #6e1118;
   background-size: cover;
   padding: 40px 0;
 }

@@ -419,7 +419,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 .layer {
-    background-color: rgba(190, 229, 240, 0.905);
+    background-color: rgb(255 204 203 / 66%);
     position: absolute;
     top: 0;
     left: 0;
@@ -470,7 +470,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .intro-info h2 span {
-  color: #1bb1dc;
+  color: #A31F34;
 }
 
 @media (max-width: 767px) {
@@ -491,12 +491,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #1bb1dc;
+  background:#A31F34;
   color: #fff;
 }
 
 #hero .intro-info .btn-get-started:hover, #hero .intro-info .btn-services:hover {
-  background: #0a98c0;
+  background: #A31F34;
 }
 
 /*--------------------------------------------------------------
@@ -530,7 +530,7 @@ section {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #f5f8fd;
+  background: #fdf5f5;
 }
 
 /* About Us Section
@@ -595,7 +595,7 @@ section {
   height: 92%;
   z-index: -1;
   content: '';
-  background-color: #ebf1fa;
+  background-color: #ffd9d92d;
   transition: .5s;
 }
 
@@ -607,7 +607,7 @@ section {
   height: 92%;
   z-index: -1;
   content: '';
-  background-color: #ebf1fa;
+  background-color: #ffd9d92d;
   transition: .5s;
 }
 .mit-logo {
@@ -743,7 +743,7 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #2d2b46;
+  background: #671c23;
   background-size: cover;
   padding: 40px 0;
 }

@@ -787,15 +787,15 @@ section {
 
 /* Whitepaper Section
 --------------------------------*/
-#whitepaper {
+#whitepapers {
   background: #6e1118;
   background-size: cover;
   padding: 40px 0;
 }
-#whitepaper {
+#whitepapers {
   color: #fff!important;
 }
-#whitepaper h3 {
+#whitepapers h3 {
   color: #fff!important;
 }
 
